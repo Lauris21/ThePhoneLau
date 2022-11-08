@@ -1,0 +1,404 @@
+{
+    "phones": [
+        {
+            "id": 1,
+            "marca": "Apple",
+            "modelo": "iPhone 14 Plus",
+            "precio": "1549€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/1/8/5/3/1618531-4643841.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/1/8/5/3/1618531-4643839.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/1/8/5/3/1618535-4643857.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/1/8/5/3/1618535-4643856.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": "6.7",
+            "camara": "12"
+        },
+        {
+            "id": 2,
+            "marca": "Apple",
+            "modelo": "iPhone 13 Pro",
+            "precio": "1459€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/4/1343949-4644055.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/4/1343949-4644054.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/5/1343952-4644064.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/5/1343952-4644063.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": 6.1,
+            "camara": 12
+        },
+        {
+            "id": 3,
+            "marca": "Apple",
+            "modelo": "iPhone 12 Pro",
+            "precio": "1299€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007105-3112690.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007105-3112689.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007106-3112684.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007106-3112683.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": 6.1,
+            "camara": 12
+        },
+        {
+            "id": 4,
+            "marca": "Samsung",
+            "modelo": "Galaxy S22 Ultra",
+            "precio": "1459€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/8/8/6/3/1388634-4309694.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/8/8/6/3/1388634-4309612.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/8/8/6/3/1388634-4309694.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/7/7/1/3/1677139-4815155.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.8,
+            "camara": 108
+        },
+        {
+            "id": 5,
+            "marca": "Samsung",
+            "modelo": "Galaxy S10",
+            "precio": "299€",
+            "gigas": 2128,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1943622.jpg",
+                    "back": "https://cdn.phonehouse.es/res/viewone450/resource_1943710.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1943622.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/4/1/9/8/2/419824-2313589.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.1,
+            "camara": 12
+        },
+        {
+            "id": 6,
+            "marca": "Samsung",
+            "modelo": "Galaxy A13",
+            "precio": "139€",
+            "gigas": 32,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/5/0/2/4/1/1502414-4407496.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/5/0/2/4/1/1502414-4393439.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/5/0/2/4/1/1502415-4407500.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/5/0/2/4/1/1502415-4393444.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.6,
+            "camara": 50
+        },
+        {
+            "id": 7,
+            "marca": "Xiaomi",
+            "modelo": "12T Pro",
+            "precio": "849€",
+            "gigas": 256,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/3/9/0/2/1639021-4729428.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/3/9/0/2/1639021-4729430.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/3/9/1/5/1639158-4729434.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/3/9/1/5/1639158-4729436.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.67,
+            "camara": 200
+        },
+        {
+            "id": 8,
+            "marca": "Xiaomi",
+            "modelo": "11T",
+            "precio": "448€",
+            "gigas": 256,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/4/5/4/3/1345437-4110083.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/4/5/4/3/1345437-4110082.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/4/5/2/3/1345237-4110080.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/4/5/2/3/1345237-4110079.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.67,
+            "camara": 108
+        },
+        {
+            "id": 9,
+            "marca": "Xiaomi",
+            "modelo": "Redmi 10A",
+            "precio": "165€",
+            "gigas": 128,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/3/1/5/4/1631549-4685237.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/3/1/5/4/1631549-4685239.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/6/3/1/5/5/1631550-4685240.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/6/3/1/5/5/1631550-4685242.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.53,
+            "camara": 13
+        },
+        {
+            "id": 10,
+            "marca": "OPPO",
+            "modelo": "Find X3 Pro",
+            "precio": "768€",
+            "gigas": 256,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/9/8/6/2/1098624-3594432.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/9/8/6/2/1098624-3594426.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/9/8/6/2/1098623-3594363.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/9/8/6/2/1098623-3594354.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.7,
+            "camara": 50
+        },
+        {
+            "id": 11,
+            "marca": "OPPO",
+            "modelo": "Find X2 Neo",
+            "precio": "589€",
+            "gigas": 256,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/8/7/9/0/3/879035-2835157.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/8/7/9/0/3/879035-2835156.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/8/7/9/0/3/879036-2835154.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/8/7/9/0/3/879036-2835153.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.5,
+            "camara": 48
+        },
+        {
+            "id": 12, 
+            "marca": "OPPO",
+            "modelo": "A16",
+            "precio": "188€",
+            "gigas": 64,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/1/4/1254149-3896420.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/1/4/1254149-3896419.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/1/4/1254148-3896417.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/1/4/1254148-3896416.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.52,
+            "camara": 13
+        },
+        {
+            "id": 13,
+            "marca": "Huawei",
+            "modelo": "Mate 20 Pro",
+            "precio": "330€",
+            "gigas": 128,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1368709.jpg",
+                    "back": "https://cdn.phonehouse.es/res/viewtwo450/resource_1368730.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1062901.jpg",
+                    "back": "https://cdn.phonehouse.es/res/viewtwo450/resource_1016103.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.39,
+            "camara": 40
+        },
+        {
+            "id": 14,
+            "marca": "Huawei",
+            "modelo": "Mate 10 Lite",
+            "precio": "155€",
+            "gigas": 64,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/2/8/4/5/9/1284590-3963299.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/2/8/4/5/9/1284590-3963298.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/2/8/4/5/9/1284591-4022350.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/2/8/4/5/9/1284591-3963302.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 5.99,
+            "camara": 16
+        },
+        {
+            "id": 15,
+            "marca": "Huawei",
+            "modelo": "P40 lite",
+            "precio": "299€",
+            "gigas": 128,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/5/0/7/0/6/1507066-4407090.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/5/0/7/0/6/1507066-4407089.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/5/0/7/0/6/1507068-4407100.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/5/0/7/0/6/1507068-4407097.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.4,
+            "camara": 48
+        },
+        {
+            "id": 16,
+            "marca": "Nokia",
+            "modelo": "2.4",
+            "precio": "298€",
+            "gigas": 32,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/5/1/0/3/9/1510399-4539228.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/5/1/0/3/9/1510399-4417296.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/3/9/1254398-4539231.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/2/5/4/3/9/1254398-3897072.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6.5,
+            "camara": 13
+        },
+        {
+            "id": 17,
+            "marca": "LG",
+            "modelo": "V30",
+            "precio": "355€",
+            "gigas": 64,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1015428.jpg",
+                    "back": "https://cdn.phonehouse.es/res/viewone450/resource_1015432.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1012174.jpg",
+                    "back": "https://cdn.phonehouse.es/res/viewone450/resource_1012186.jpg"
+                }
+            },
+            "sistema": "Android",
+            "pulgadas": 6,
+            "camara": 16
+        },
+        {
+            "id": 18,
+            "marca": "Apple",
+            "modelo": "iPhone 13",
+            "precio": "1069€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/3/2/4/1/1332413-4640379.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/3/2/4/1/1332413-4640378.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/2/1343921-4640370.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/3/4/3/9/2/1343921-4640369.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": 6.1,
+            "camara": 12
+        },
+        {
+            "id": 19,
+            "marca": "Apple",
+            "modelo": "iPhone 12 Pro",
+            "precio": "1299€",
+            "gigas": 512,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007105-3112690.jpg", 
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007105-3112689.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007106-3112684.jpg",
+                    "back": "https://cdn.phonehouse.es/res/products-image/1/0/0/7/1/0/1007106-3112683.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": 6.1,
+            "camara": 12
+        },
+        {
+            "id": 20,
+            "marca": "Apple",
+            "modelo": "iPhone XR",
+            "precio": "564€",
+            "gigas": 64,
+            "image": {
+                "negro": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1021677.jpg", 
+                    "back": "https://cdn.phonehouse.es/res/viewthree450/resource_1021939.jpg"
+                },
+                "azul": {
+                    "front": "https://cdn.phonehouse.es/res/product450/resource_1021710.jpg", 
+                    "back": "https://cdn.phonehouse.es/res/viewthree450/resource_1021904.jpg"
+                }
+            },
+            "sistema": "iOS",
+            "pulgadas": 6.1,
+            "camara": 12
+        }
+    ]
+}
