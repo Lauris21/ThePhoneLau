@@ -4,7 +4,7 @@
             "id": 1,
             "marca": "Apple",
             "modelo": "iPhone 14 Plus",
-            "precio": "1549€",
+            "precio": 1549,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -24,7 +24,7 @@
             "id": 2,
             "marca": "Apple",
             "modelo": "iPhone 13 Pro",
-            "precio": "1459€",
+            "precio": 1459,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -44,7 +44,7 @@
             "id": 3,
             "marca": "Apple",
             "modelo": "iPhone 12 Pro",
-            "precio": "1299€",
+            "precio": 1299,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -64,7 +64,7 @@
             "id": 4,
             "marca": "Samsung",
             "modelo": "Galaxy S22 Ultra",
-            "precio": "1459€",
+            "precio": 1459,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -84,7 +84,7 @@
             "id": 5,
             "marca": "Samsung",
             "modelo": "Galaxy S10",
-            "precio": "299€",
+            "precio": 299,
             "gigas": 2128,
             "image": {
                 "negro": {
@@ -104,7 +104,7 @@
             "id": 6,
             "marca": "Samsung",
             "modelo": "Galaxy A13",
-            "precio": "139€",
+            "precio": 139,
             "gigas": 32,
             "image": {
                 "negro": {
@@ -124,7 +124,7 @@
             "id": 7,
             "marca": "Xiaomi",
             "modelo": "12T Pro",
-            "precio": "849€",
+            "precio": 849,
             "gigas": 256,
             "image": {
                 "negro": {
@@ -144,7 +144,7 @@
             "id": 8,
             "marca": "Xiaomi",
             "modelo": "11T",
-            "precio": "448€",
+            "precio": 448,
             "gigas": 256,
             "image": {
                 "negro": {
@@ -164,7 +164,7 @@
             "id": 9,
             "marca": "Xiaomi",
             "modelo": "Redmi 10A",
-            "precio": "165€",
+            "precio": 165,
             "gigas": 128,
             "image": {
                 "negro": {
@@ -184,7 +184,7 @@
             "id": 10,
             "marca": "OPPO",
             "modelo": "Find X3 Pro",
-            "precio": "768€",
+            "precio": 768,
             "gigas": 256,
             "image": {
                 "negro": {
@@ -204,7 +204,7 @@
             "id": 11,
             "marca": "OPPO",
             "modelo": "Find X2 Neo",
-            "precio": "589€",
+            "precio": 589,
             "gigas": 256,
             "image": {
                 "negro": {
@@ -224,7 +224,7 @@
             "id": 12, 
             "marca": "OPPO",
             "modelo": "A16",
-            "precio": "188€",
+            "precio": 188,
             "gigas": 64,
             "image": {
                 "negro": {
@@ -244,7 +244,7 @@
             "id": 13,
             "marca": "Huawei",
             "modelo": "Mate 20 Pro",
-            "precio": "330€",
+            "precio": 330,
             "gigas": 128,
             "image": {
                 "negro": {
@@ -264,7 +264,7 @@
             "id": 14,
             "marca": "Huawei",
             "modelo": "Mate 10 Lite",
-            "precio": "155€",
+            "precio": 155,
             "gigas": 64,
             "image": {
                 "negro": {
@@ -284,7 +284,7 @@
             "id": 15,
             "marca": "Huawei",
             "modelo": "P40 lite",
-            "precio": "299€",
+            "precio": 299,
             "gigas": 128,
             "image": {
                 "negro": {
@@ -304,7 +304,7 @@
             "id": 16,
             "marca": "Nokia",
             "modelo": "2.4",
-            "precio": "298€",
+            "precio": 298,
             "gigas": 32,
             "image": {
                 "negro": {
@@ -324,7 +324,7 @@
             "id": 17,
             "marca": "LG",
             "modelo": "V30",
-            "precio": "355€",
+            "precio": 355,
             "gigas": 64,
             "image": {
                 "negro": {
@@ -344,7 +344,7 @@
             "id": 18,
             "marca": "Apple",
             "modelo": "iPhone 13",
-            "precio": "1069€",
+            "precio": 1069,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -364,7 +364,7 @@
             "id": 19,
             "marca": "Apple",
             "modelo": "iPhone 12 Pro",
-            "precio": "1299€",
+            "precio": 1299,
             "gigas": 512,
             "image": {
                 "negro": {
@@ -384,7 +384,7 @@
             "id": 20,
             "marca": "Apple",
             "modelo": "iPhone XR",
-            "precio": "564€",
+            "precio": 564,
             "gigas": 64,
             "image": {
                 "negro": {
