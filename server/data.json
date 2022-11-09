@@ -85,7 +85,7 @@
             "marca": "Samsung",
             "modelo": "Galaxy S10",
             "precio": 299,
-            "gigas": 2128,
+            "gigas": 128,
             "image": {
                 "negro": {
                     "front": "https://cdn.phonehouse.es/res/product450/resource_1943622.jpg",

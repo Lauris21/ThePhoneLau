@@ -2,11 +2,14 @@ import { useContext, useEffect, useState } from 'react';
 
 import { DataContext } from '../context/DataContext';
 import Image from './../components/Image';
+import OptionMarcas from '../components/OptionMarcas';
+import OptionGigas from '../components/OptionGigas';
 
 const Home = () => {
   const { phones, phoneModelFilter, setPhoneModelFilter } = useContext(DataContext);
   const [filter, setFilter] = useState('');
-  console.log(filter);
+  const [marca, setMarca] = useState([]);
+  const [giga, setGiga] = useState([]);
 
   useEffect(() => {
     setPhoneModelFilter(
@@ -24,6 +27,16 @@ const Home = () => {
           onChange={(ev) => setFilter(ev.target.value)}
         />
       </section>
+      <div>
+        <select onChange={(ev) => setMarca(ev.target.value)}>
+          <option value="">Marca</option>
+          {<OptionMarcas />}
+        </select>
+        <select onChange={(ev) => setGiga(ev.target.value)}>
+          <option value="">Gigas</option>
+          {<OptionGigas />}
+        </select>
+      </div>
       <div className="phonesGallery">
         {filter === ''
           ? phones.map((item) => (
