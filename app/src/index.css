@@ -3,7 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.figureGallery > img {
+
+a {
+    text-decoration: none;
+}
+.figureGallery > a > img {
     width: 8rem;
     height: 15rem;
+}
+
+.phones_gallery {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+.figure_phone > img {
+    width: 15rem;
+    height: 28rem;
+}
+
+.img_second > img {
+    width: 5rem;
+    height: 9rem;
+}
+
+.hero_image {
+    display: flex;
+    flex-direction: row;
 }
