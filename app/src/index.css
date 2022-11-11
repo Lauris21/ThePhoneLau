@@ -23,7 +23,7 @@ a {
     height: 28rem;
 }
 
-.img_second > img {
+.img_second > button > img {
     width: 5rem;
     height: 9rem;
 }
@@ -32,3 +32,28 @@ a {
     display: flex;
     flex-direction: row;
 }
+
+.black {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(6, 6, 19);
+
+}
+.blue {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(84, 84, 216);
+
+}
+
+.sectionHero > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.hero_detail {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 3.5rem;
+} 

@@ -17,6 +17,9 @@ export const DataContextProvider = ({ children }) => {
   const [phones, setPhones] = useState([]);
   const [user, setUser] = useState('');
   const [phoneModelFilter, setPhoneModelFilter] = useState(phones);
+  const [cesta, setCesta] = useState(0);
+  const [total, setTotal] = useState(0);
+  const [phonecesta, setphoneCesta] = useState([]);
   useEffect(() => {
     getData().then((res) => {
       res.sort(ordenDes);
@@ -25,7 +28,20 @@ export const DataContextProvider = ({ children }) => {
   }, []);
   return (
     <DataContext.Provider
-      value={{ phones, setPhones, user, setUser, phoneModelFilter, setPhoneModelFilter }}
+      value={{
+        phones,
+        setPhones,
+        user,
+        setUser,
+        phoneModelFilter,
+        setPhoneModelFilter,
+        cesta,
+        setCesta,
+        total,
+        setTotal,
+        phonecesta,
+        setphoneCesta,
+      }}
     >
       {children}
     </DataContext.Provider>

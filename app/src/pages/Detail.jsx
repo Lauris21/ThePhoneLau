@@ -2,8 +2,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useContext } from 'react';
 import { DataContext } from '../context/DataContext';
 
-import Image from '../components/Image';
 import HeroImage from '../components/HeroImage';
+import HeroDetail from '../components/HeroDetail';
 
 const Detail = () => {
   const { phones } = useContext(DataContext);
@@ -22,6 +22,7 @@ const Detail = () => {
       <button onClick={handleOnClick}>Back</button>
       <div className="detail">
         <HeroImage phone={phone} />
+        <HeroDetail phone={phone} />
       </div>
     </>
   );
