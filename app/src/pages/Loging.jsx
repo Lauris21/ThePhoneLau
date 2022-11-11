@@ -15,6 +15,11 @@ const Login = () => {
   const onFormSubmit = (values) => {
     setUser(values.username);
     navigate('/carrito');
+    localStorage.setItem('values', JSON.stringify(values));
+  };
+
+  const handleOnClick = () => {
+    localStorage.removeItem('values');
   };
 
   return (
@@ -83,6 +88,9 @@ const Login = () => {
         ) : null}
         <button type="submit">Enviar</button>
       </form>
+      <button type="button" onClick={handleOnClick}>
+        Cerrar sesión
+      </button>
     </div>
   );
 };
