@@ -57,3 +57,11 @@ a {
     padding: 3rem;
     gap: 3.5rem;
 } 
+
+.img_second > button > .img2 {
+    width: 7.5rem;
+}
+
+.figure_phone > .mainImg {
+    width: 21rem;
+}

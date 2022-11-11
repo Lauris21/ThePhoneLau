@@ -1,11 +1,15 @@
 import { useContext, useEffect, useState } from 'react';
 import { DataContext } from '../context/DataContext';
 import Image from './Image';
+import PopUp from './PopUp';
 
 const HeroImage = ({ phone }) => {
   const [addCesta, setAddCesta] = useState(0);
   const { cesta, setCesta, total, setTotal, phonecesta, setphoneCesta } =
     useContext(DataContext);
+
+  const [open, setOpen] = useState(false);
+
   let model;
   let price;
   let gigs;
@@ -46,9 +50,11 @@ const HeroImage = ({ phone }) => {
 
   const handleChangeImg = () => {
     setMainImg(img1);
+    setOpen(false);
   };
   const handleChangeImg1 = () => {
     setMainImg(img2);
+    setOpen(true);
   };
 
   const handleCesta = (ev) => {
@@ -62,13 +68,13 @@ const HeroImage = ({ phone }) => {
   return (
     <div className="hero_image">
       <figure className="figure_phone">
-        <Image src={mainImg} alt={model} />
+        <Image className={open ? 'mainImg' : 'frontimg'} src={mainImg} alt={model} />
         <div className="img_second">
           <button onClick={handleChangeImg}>
             <Image src={img1} alt={model} />
           </button>
           <button onClick={handleChangeImg1}>
-            <Image src={img2} alt={model} />
+            <Image className="img2" src={img2} alt={model} />
           </button>
         </div>
       </figure>
@@ -89,7 +95,9 @@ const HeroImage = ({ phone }) => {
             onChange={(ev) => setAddCesta(Number(ev.target.value))}
           />
           <p>Envío gratis en 24 horas.</p>
-          <button type="submit">Añadir al carrito</button>
+          <span type="submit">
+            <PopUp />
+          </span>
         </form>
       </section>
     </div>
