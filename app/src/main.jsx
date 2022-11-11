@@ -7,7 +7,8 @@ import Home from './pages/Home';
 import Detail from './pages/Detail';
 import './index.css';
 import Carrito from './pages/Carrito';
-import Login from './pages/Loging';
+import Loging from './pages/Loging';
+import Pago from './pages/Pago';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,7 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="/:id" element={<Detail />} />
           <Route path="/carrito" element={<Carrito />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/loging" element={<Loging />} />
+          <Route path="/pago" element={<Pago />} />
         </Route>
       </Routes>
     </BrowserRouter>
