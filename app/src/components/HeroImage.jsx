@@ -64,7 +64,7 @@ const HeroImage = ({ phone }) => {
     phonecesta.push(phone);
     setphoneCesta(phonecesta.flat());
   };
-  console.log(phonecesta);
+
   return (
     <div className="hero_image">
       <figure className="figure_phone">
