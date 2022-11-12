@@ -6,14 +6,19 @@ import Image from './../components/Image';
 import OptionMarcas from '../components/OptionMarcas';
 import OptionGigas from '../components/OptionGigas';
 import OptionPrecio from './../components/OptionPrecio';
+import Spinner from '../components/Spinner';
 
 const Home = () => {
   const { phones, phoneModelFilter, setPhoneModelFilter } = useContext(DataContext);
   const [filter, setFilter] = useState('');
   const [marca, setMarca] = useState('');
   const [gigas, setGigas] = useState(0);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
     setPhoneModelFilter(
       phones.filter((item) => item.modelo.toLowerCase().includes(filter.toLowerCase())),
     );
@@ -83,23 +88,27 @@ const Home = () => {
         </select>
       </div>
       <div className="phones_gallery">
-        {filter === '' && marca === '' && gigas === 0
-          ? phones.map((item) => (
-              <figure key={item.id} className="figureGallery">
-                <Link to={`/${item.id}`}>
-                  <Image src={item.image.negro.front} alt={item.modelo} />
-                  <h3>{item.modelo}</h3>
-                </Link>
-              </figure>
-            ))
-          : phoneModelFilter.map((item) => (
-              <figure key={item.id} className="figureGallery">
-                <Link to={`/${item.id}`}>
-                  <Image src={item.image.negro.front} alt={item.modelo} />
-                  <h3>{item.modelo}</h3>
-                </Link>
-              </figure>
-            ))}
+        {loading ? (
+          <Spinner />
+        ) : filter === '' && marca === '' && gigas === 0 ? (
+          phones.map((item) => (
+            <figure key={item.id} className="figureGallery">
+              <Link to={`/${item.id}`}>
+                <Image src={item.image.negro.front} alt={item.modelo} />
+                <h3>{item.modelo}</h3>
+              </Link>
+            </figure>
+          ))
+        ) : (
+          phoneModelFilter.map((item) => (
+            <figure key={item.id} className="figureGallery">
+              <Link to={`/${item.id}`}>
+                <Image src={item.image.negro.front} alt={item.modelo} />
+                <h3>{item.modelo}</h3>
+              </Link>
+            </figure>
+          ))
+        )}
       </div>
     </>
   );
