@@ -31,6 +31,10 @@
     display: block;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: var(--font);
@@ -39,4 +43,79 @@ a {
 main {
     border-top: 5px solid black;
     background-color: snow;
+}
+
+footer {
+    background-color: #1c0e22;
+}
+
+.logos {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    place-content: center;
+}
+
+.logos > li {
+    background-color: aliceblue;
+   height: 2.5rem;
+   border-radius: 50px;
+    
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    place-content: center;
+    padding: 1.5rem 0;
+    
+}
+
+footer > ul > li > a {
+    color: var(--primary);
+    font-size: 0.9rem;
+    padding: 0 1.5rem;
+}
+.logos > li > a > img {
+    width: 2.5rem;
+}
+
+.li1, .li2 {
+    border-right: 1px solid rgb(246, 246, 246);
+}
+
+@media screen and (max-width: 415px){
+    footer > ul > li > a {
+    padding: 0 0.5rem;
+    }
+    .filters {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .loging_form > form {
+        width: 270px;
+    }
+    .detail {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    .hero_image {
+        flex-direction: column;
+    }
+    .figure_phone > .mainImg {
+        width: 14rem;
+        height: 21rem
+    }
+    .actions {
+        flex-direction: column;
+    }
+    .all_carrito {
+        flex-direction: column;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .pago-form > form {
+        width: 250px;
+    }
 }
