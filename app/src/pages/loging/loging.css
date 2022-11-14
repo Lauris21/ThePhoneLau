@@ -1,0 +1,55 @@
+.loging_form {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.loging_form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 450px;
+}
+
+.loging_form > form > input {
+    height: 1.5rem;
+    width: 98%;
+    border-radius: 9px;
+    border: 1px solid blueviolet;
+    padding-left: 1rem
+}
+
+.loging_form > form > button {
+    height: 3rem;
+    width: 55%;
+    font-size: 1rem;
+    color: var(--secondary);
+    background: var(--background);
+    border-radius: 18px;
+    border: 2px solid rgb(249, 217, 7);
+    transition: all 0.3s ease-in-out;
+    place-self: center;
+}
+
+.loging_form > form > button:hover {
+    transform: scale(1.2);
+    color: rgb(252, 252, 113);
+}
+
+.error {
+    color: var(--error);
+}
+
+.loging_form > button {
+    height: 2rem;
+    min-width: 15%;
+    font-size: 1rem;
+    color: var(--secondary);
+    background: var(--background);
+    border-radius: 18px;
+    border: 2px solid rgb(249, 217, 7);
+    transition: all 0.3s ease-in-out;
+    place-self: center;
+}

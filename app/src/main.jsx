@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App';
-import Home from './pages/Home';
-import Detail from './pages/Detail';
+import Home from './pages/home/Home';
+import Detail from './pages/detail/Detail';
 import './index.css';
-import Carrito from './pages/Carrito';
-import Loging from './pages/Loging';
-import Pago from './pages/Pago';
+import Carrito from './pages/carrito/Carrito';
+import Loging from './pages/loging/Loging';
+import Pago from './pages/pago/Pago';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

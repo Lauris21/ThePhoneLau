@@ -1,0 +1,39 @@
+
+header {
+    background: rgb(60,37,74);
+    background: linear-gradient(97deg, rgba(60,37,74,1) 0%, rgba(78,42,99,1) 28%, rgba(92,42,138,1) 63%, rgba(138,43,226,1) 100%);
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header > a > h1{
+    color: var(--primary);
+    border-bottom: 3px solid var(--secondary);
+    font-family: Barcelona, sans-serif;
+}
+
+header > a {
+    color: var(--primary);
+}
+
+header > p {
+    color: var(--primary);
+    font-size: 1rem;
+}
+header > a > img {
+    width: 2rem;
+    color: var(--primary);
+}
+
+.trolley {
+    display: flex;
+    gap: 2rem;
+}
+
+.trolley > p {
+    align-self: center;
+}

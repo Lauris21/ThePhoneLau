@@ -1,0 +1,179 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.figure_phone > img {
+    width: 15rem;
+    height: 28rem;
+}
+
+.img_second > button > img {
+    width: 5rem;
+    height: 9rem;
+}
+
+.hero_image {
+    display: flex;
+    flex-direction: row;
+    gap: 8%; 
+}
+
+.figure_phone {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.img_second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_second > button > .img2 {
+    width: 7.5rem;
+}
+
+.figure_phone > .mainImg {
+    width: 21rem;
+}
+
+.img_second > button {
+    border: none;
+    cursor: zoom-in;
+}
+
+.section_image {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-self: center;
+}
+
+.section_image > h2 {
+    font-size: 2.2rem;
+    border-bottom: 2px solid #1a1a18;
+}
+
+.section_image > .price {
+    width: 6.5rem;
+    font-size: 2.2rem;
+    border-bottom: 2px solid var(--secondary);
+    background-color: var(--background);
+    color: var(--secondary);
+    border-radius: 6px;
+}
+
+.section_image > p {
+    font-size: 1.3rem;
+}
+
+.section_image > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(6, 6, 19);
+    border-radius: 50%;
+
+}
+.blue {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(84, 84, 216);
+    border-radius: 50%;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+}
+
+.shop > input {
+    height: 1.5rem;
+    width: 50%;
+    border-radius: 9px;
+    border: 1px solid blueviolet;
+    padding-left: 1rem
+}
+
+.shop > span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_add {
+    height: 3rem;
+    width: 85%;
+    font-size: 1rem;
+    color: var(--secondary);
+    background: var(--background);
+    border-radius: 18px;
+    border: 2px solid rgb(249, 217, 7);
+    transition: all 0.3s ease-in-out;
+}
+
+.button_add:hover {
+    transform: scale(1.2);
+    color: rgb(252, 252, 113);
+}
+
+.sectionHero > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.hero_detail {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 3.5rem;
+    justify-content: center;
+} 
+
+.detail > button {
+    height: 3rem;
+    width: 25%;
+    font-size: 1rem;
+    color: var(--secondary);
+    background: var(--background);
+    border-radius: 18px;
+    border: 2px solid rgb(249, 217, 7);
+    transition: all 0.3s ease-in-out;
+    place-self: center;
+}
+
+.popup-overlay {
+    background-color: var(--transparent);
+}
+
+.actions {
+    display: flex;
+    gap: 2rem;
+}
+
+.actions > .button {
+    height: 3rem;
+    font-size: 1rem;
+    color: var(--secondary);
+    background: var(--background);
+    border-radius: 18px;
+    border: 2px solid rgb(249, 217, 7);
+    transition: all 0.3s ease-in-out;
+    place-self: center;
+    padding: 0 1rem;
+}
+
+.actions > button:hover {
+    transform: scale(1.2);
+    color: rgb(252, 252, 113);
+}

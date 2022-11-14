@@ -1,9 +1,11 @@
+import './detail.css';
+
 import { useNavigate, useParams } from 'react-router-dom';
 import { useContext } from 'react';
-import { DataContext } from '../context/DataContext';
+import { DataContext } from '../../context/DataContext';
 
-import HeroImage from '../components/HeroImage';
-import HeroDetail from '../components/HeroDetail';
+import HeroImage from '../../components/HeroImage';
+import HeroDetail from '../../components/HeroDetail';
 
 const Detail = () => {
   const { phones } = useContext(DataContext);
@@ -18,11 +20,11 @@ const Detail = () => {
   const phone = phones.filter((item) => item.id == id);
   return (
     <>
-      <h1>Detail</h1>
-      <button onClick={handleOnClick}>Back</button>
+      <h1>Detail phone</h1>
       <div className="detail">
         <HeroImage phone={phone} />
         <HeroDetail phone={phone} />
+        <button onClick={handleOnClick}>Back</button>
       </div>
     </>
   );

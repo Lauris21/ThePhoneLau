@@ -2,66 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: MadeOk, sans-serif;
+}
+
+:root {
+    --background: #8a2be2;
+    --transparent: #303030ee;
+    --primary: snow;
+    --secondary: #ffce09;
+    --error: #c24a42;
+    --font: #272727;
+    --gradienBlack: linear-gradient(180deg, rgba(31,30,33,1) 29%, rgba(50,47,52,1) 61%, rgba(112,110,113,1) 100%);
+  }
+
+@font-face {
+    font-family: Antipasto;
+    src: url("./assets/fonts/Antipasto_Regular.ttf");
+    display: block;
+}
+@font-face {
+    font-family: Barcelona;
+    src: url("./assets/fonts/Barcelona.otf");
+    display: block;
+}
+@font-face {
+    font-family: MadeOk;
+    src: url("./assets/fonts/MADEOk.otf");
+    display: block;
 }
 
 a {
     text-decoration: none;
-}
-.figureGallery > a > img {
-    width: 8rem;
-    height: 15rem;
+    color: var(--font);
 }
 
-.phones_gallery {
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-}
-
-.figure_phone > img {
-    width: 15rem;
-    height: 28rem;
-}
-
-.img_second > button > img {
-    width: 5rem;
-    height: 9rem;
-}
-
-.hero_image {
-    display: flex;
-    flex-direction: row;
-}
-
-.black {
-    height: 2rem;
-    width: 2rem;
-    background-color: rgb(6, 6, 19);
-
-}
-.blue {
-    height: 2rem;
-    width: 2rem;
-    background-color: rgb(84, 84, 216);
-
-}
-
-.sectionHero > img {
-    width: 3rem;
-    height: 3rem;
-}
-
-.hero_detail {
-    display: flex;
-    flex-direction: row;
-    padding: 3rem;
-    gap: 3.5rem;
-} 
-
-.img_second > button > .img2 {
-    width: 7.5rem;
-}
-
-.figure_phone > .mainImg {
-    width: 21rem;
+main {
+    border-top: 5px solid black;
+    background-color: snow;
 }

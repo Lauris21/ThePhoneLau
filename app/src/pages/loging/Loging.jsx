@@ -1,5 +1,7 @@
+import './loging.css';
+
 import { useContext } from 'react';
-import { DataContext } from '../context/DataContext';
+import { DataContext } from '../../context/DataContext';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 
@@ -15,11 +17,12 @@ const Login = () => {
   const onFormSubmit = (values) => {
     setUser(values.username);
     navigate('/carrito');
-    localStorage.setItem('values', JSON.stringify(values));
+    localStorage.setItem('values', values);
   };
 
   const handleOnClick = () => {
     localStorage.removeItem('values');
+    setUser('');
   };
 
   return (
@@ -30,7 +33,6 @@ const Login = () => {
         <input
           type="text"
           name="username"
-          placeholder="userName"
           {...register('username', { required: true, minLength: 3 })}
         />
         {errors.username ? (
@@ -86,6 +88,31 @@ const Login = () => {
               : 'Este campo es requerido, mínimo 6 caracteres'}
           </p>
         ) : null}
+        <label htmlFor="direction">Dirección:</label>
+        <input
+          type="text"
+          name="direction"
+          {...register('direction', { required: true, minLength: 5 })}
+        />
+        {errors.direction ? (
+          <p className="error">Campo requerido, mínimo 5 caracteres</p>
+        ) : null}
+        <label htmlFor="phone">Teléfono contacto:</label>
+        <input
+          type="text"
+          name="phone"
+          {...register('phone', {
+            required: true,
+            minLength: 9,
+            pattern: /^\S*$/,
+            validate: {
+              format: (phone) => {
+                return /[0-9]/g.test(phone);
+              },
+            },
+          })}
+        />
+        {errors.phone ? <p className="error">Campo requerido, solo números</p> : null}
         <button type="submit">Enviar</button>
       </form>
       <button type="button" onClick={handleOnClick}>

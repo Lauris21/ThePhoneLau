@@ -1,15 +1,17 @@
+import './home.css';
+
 import { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { DataContext } from '../context/DataContext';
-import Image from './../components/Image';
-import OptionMarcas from '../components/OptionMarcas';
-import OptionGigas from '../components/OptionGigas';
-import OptionPrecio from './../components/OptionPrecio';
-import Spinner from '../components/Spinner';
+import { DataContext } from '../../context/DataContext';
+import Image from '../../components/Image';
+import OptionMarcas from '../../components/OptionMarcas';
+import OptionGigas from '../../components/OptionGigas';
+import OptionPrecio from '../../components/OptionPrecio';
+import Spinner from '../../components/Spinner';
 
 const Home = () => {
-  const { phones, phoneModelFilter, setPhoneModelFilter } = useContext(DataContext);
+  const { phones, phoneModelFilter, setPhoneModelFilter, user } = useContext(DataContext);
   const [filter, setFilter] = useState('');
   const [marca, setMarca] = useState('');
   const [gigas, setGigas] = useState(0);
@@ -65,7 +67,7 @@ const Home = () => {
 
   return (
     <>
-      <h1>Home</h1>
+      <h1>Wellcome {user}</h1>
       <section>
         <input
           type="text"
@@ -74,7 +76,7 @@ const Home = () => {
           onChange={(ev) => setFilter(ev.target.value)}
         />
       </section>
-      <div>
+      <div className="filters">
         <select onChange={(ev) => getMarcaPhone(ev)}>
           <option value="">Marca</option>
           {<OptionMarcas />}

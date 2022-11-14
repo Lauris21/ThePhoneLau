@@ -1,0 +1,67 @@
+main > h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+main > section {
+    height: 3rem;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+main > section > input {
+    height: 1.5rem;
+    width: 65%;
+    border-radius: 9px;
+    border: 1px solid blueviolet;
+    padding-left: 1rem
+}
+
+main > div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.filters {
+    width: 55%;
+    margin: auto;
+    padding: 1rem
+}
+
+.filters > select {
+    border-radius: 9px;
+    border: 1px solid blueviolet;
+    color: var(--primary);
+    background-color: var(--background);
+    text-align: center;
+}
+
+.phones_gallery {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 2rem 0
+}
+
+.figureGallery {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.figureGallery:hover {
+    border-radius: 9px;
+    border: 1.5px solid blueviolet;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.figureGallery > a > img {
+    width: 8rem;
+    height: 15rem;
+}
+
+.figureGallery > a > h3 {
+    margin-top: 0.6rem;
+}

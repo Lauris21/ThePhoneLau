@@ -1,3 +1,5 @@
+import './pago.css';
+
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
@@ -14,6 +16,7 @@ const Pago = () => {
   const onFormSubmit = () => {
     setEnd(true);
   };
+
   return (
     <div className="pago-form">
       <h2>Rellena los datos de tu tarjeta Visa y el pedido se pondrá en marcha</h2>
@@ -66,7 +69,7 @@ const Pago = () => {
           Confirmar compra
         </button>
       </form>
-      <div className={end && 'div_end'}>
+      <div className={end ? 'div_end' : 'div-no'}>
         <p>Gracias por su compra, que lo disfrute! 💖</p>
         <button
           type="button"
