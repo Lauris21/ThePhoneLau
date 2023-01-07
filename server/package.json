@@ -7,7 +7,7 @@
     "dev": "node index.js"
   },
   "keywords": [],
-  "author": "Laura Sanchez",
+  "author": "Laura Sanchez <laurasanchez.develop@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.1"
