@@ -8,7 +8,7 @@ header {
     padding: 2rem;
     align-items: center;
     flex-wrap: wrap;
-    height: 15vh;
+    min-height: 15vh;
 }
 
 header > a > h1{

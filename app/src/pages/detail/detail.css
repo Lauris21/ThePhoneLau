@@ -9,6 +9,7 @@
 .figure_phone > img {
     width: 15rem;
     height: 28rem;
+    place-self: center;
 }
 
 .img_second > button > img {
